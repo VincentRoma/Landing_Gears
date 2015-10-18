@@ -1,0 +1,9 @@
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\bin\Debug\QualityApplication.exe.config
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\bin\Debug\QualityApplication.exe
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\bin\Debug\QualityApplication.pdb
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.csprojResolveAssemblyReference.cache
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.Form1.resources
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.Properties.Resources.resources
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.csproj.GenerateResource.Cache
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.exe
+c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.pdb
