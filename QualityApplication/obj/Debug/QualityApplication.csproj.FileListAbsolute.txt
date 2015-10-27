@@ -7,3 +7,12 @@ c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\Qu
 c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.csproj.GenerateResource.Cache
 c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.exe
 c:\users\vincentroma\documents\visual studio 2015\Projects\QualityApplication\QualityApplication\obj\Debug\QualityApplication.pdb
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\bin\Debug\QualityApplication.exe.config
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.exe
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.pdb
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\bin\Debug\QualityApplication.exe
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\bin\Debug\QualityApplication.pdb
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.csprojResolveAssemblyReference.cache
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.Form1.resources
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.Properties.Resources.resources
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.csproj.GenerateResource.Cache

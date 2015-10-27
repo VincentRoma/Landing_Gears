@@ -42,6 +42,7 @@ namespace QualityApplication
         {
             Thread.Sleep(1000);
             pictureBox2.Image = Image.FromFile("../../img/gear2_moving.jpg");
+            pictureBox2.Refresh();
             Thread.Sleep(3000);
             pictureBox2.Image = Image.FromFile("../../img/gear2_extracted.jpg");
         }
@@ -50,11 +51,13 @@ namespace QualityApplication
         {
             progressBar1.Value = 33;
             pictureBox2.Image = Image.FromFile("../../img/gear2_moving.jpg");
+            pictureBox2.Refresh();
             Thread.Sleep(1000);
             progressBar1.Value = 66;
             Thread.Sleep(2000);
             progressBar1.Value = 100;
             pictureBox2.Image = Image.FromFile("../../img/gear2_retracted.jpg");
+            pictureBox2.Refresh();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
