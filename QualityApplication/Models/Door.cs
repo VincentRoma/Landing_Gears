@@ -29,11 +29,10 @@ namespace QualityApplication.Models
 
         private BackgroundWorker backgroundWorker;
 
-        /// Methodes
-        /// 
-
-        /// Change picturebox image and refresh display
-        /// 
+        /// <summary>
+        /// Update the door picture status with async thread safe method
+        /// </summary>
+        /// <param name="picture">The PictureBox to be updated</param>
         public void openDoor(PictureBox picture)
         {
             this.doorBox = picture;
@@ -47,6 +46,10 @@ namespace QualityApplication.Models
             this.state = 0;
         }
 
+        /// <summary>
+        /// Update the door picture status with async thread safe method
+        /// </summary>
+        /// <param name="picture">The PictureBox to be updated</param>
         public void closeDoor(PictureBox picture)
         {
             this.doorBox = picture;
@@ -60,6 +63,11 @@ namespace QualityApplication.Models
             this.state = 0;
         }
 
+        /// <summary>
+        /// Async method that update PictureBox in a thread sage way
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void backgroundWorker_RunWorkerCompleted(
             object sender,
             RunWorkerCompletedEventArgs e)

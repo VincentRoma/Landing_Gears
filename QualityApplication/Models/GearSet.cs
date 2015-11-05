@@ -24,6 +24,10 @@ namespace QualityApplication.Models
         private PictureBox gearBox;
         private PictureBox doorBox;
 
+        /// <summary>
+        /// Manage the doors and gears movements
+        /// </summary>
+        /// <returns>Error flag in case of failure</returns>
         public bool actionGearSet()
         {
             if (this.gearSetState == 0)

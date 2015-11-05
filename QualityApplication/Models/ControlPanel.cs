@@ -26,6 +26,9 @@ namespace QualityApplication.Models
         private bool gearsetRightState;
         private bool gearsetMiddleState;
 
+        /// <summary>
+        /// Trigger the extractation of the 3 GearSets and update the lightControl status
+        /// </summary>
         public void landing()
         {
             //Creating the array of handles.
@@ -34,6 +37,9 @@ namespace QualityApplication.Models
             this.lightControl.updateLightState(2, error);
         }
 
+        /// <summary>
+        /// Trigger the retraction of the 3 GearSets and update the lightControl status
+        /// </summary>
         public void takeOff()
         {
             this.lightControl.updateLightState(1, false);
@@ -41,6 +47,10 @@ namespace QualityApplication.Models
             this.lightControl.updateLightState(0, error);
         }
 
+        /// <summary>
+        /// Thread the 3 GearSets in order for them to execute simultaneously 
+        /// </summary>
+        /// <returns>Boolean for error check</returns>
         private bool doActionGearSet()
         {
             bool error = false;

@@ -24,11 +24,10 @@ public class Gear
     private int state;
     private BackgroundWorker backgroundWorker;
 
-    /// Methodes
-    /// 
-
-    /// Change picturebox image and refresh display
-    /// 
+    /// <summary>
+    /// Update the Gear PictureBox status during extraction
+    /// </summary>
+    /// <param name="picture">The Picture Box to be updated</param>
     public void extractGear(PictureBox picture)
     {
         this.gearBox = picture;
@@ -42,6 +41,10 @@ public class Gear
         this.state = 0;
     }
 
+    /// <summary>
+    /// Update the Gear PictureBox status during retractation
+    /// </summary>
+    /// <param name="picture">The PictureBox to be update</param>
     public void retractGear(PictureBox picture)
     {
         this.gearBox = picture;
@@ -55,6 +58,11 @@ public class Gear
         this.state = 0;
     }
 
+    /// <summary>
+    /// Async method that update PictureBox in a thread sage way
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void backgroundWorker_RunWorkerCompleted(
         object sender,
         RunWorkerCompletedEventArgs e)

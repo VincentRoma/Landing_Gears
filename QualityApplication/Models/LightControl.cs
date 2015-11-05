@@ -25,6 +25,11 @@ namespace QualityApplication.Models
         private PictureBox lightBox;
         private Image[] lights;
 
+        /// <summary>
+        /// Update the lightControl picture depending on the state and errors
+        /// </summary>
+        /// <param name="state">The current step provide by the ControlPanel</param>
+        /// <param name="error">Error flag</param>
         public void updateLightState(int state, bool error)
         {
             if (!error)
