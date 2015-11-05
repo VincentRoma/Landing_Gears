@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
@@ -8,27 +9,56 @@ public class Gear
 	public Gear()
 	{
         this.speed = 5000;
-        this.pictureStepOne = "../../img/gear2_moving.jpg";
-        this.pictureStepTwo = "../../img/gear2_extracted.jpg";
+        this.state = 0;
+        this.pictures = new Image[3];
+        this.pictures[0] = Image.FromFile("../../img/gear2_retracted.jpg");
+        this.pictures[1] = Image.FromFile("../../img/gear2_moving.jpg");
+        this.pictures[2] = Image.FromFile("../../img/gear2_extracted.jpg");
+       
+        this.backgroundWorker = new BackgroundWorker();
     }
 
     private int speed;
-
-    private String pictureStepOne;
-
-    private String pictureStepTwo;
+    private Image[] pictures;
+    private PictureBox gearBox; 
+    private int state;
+    private BackgroundWorker backgroundWorker;
 
     /// Methodes
     /// 
 
     /// Change picturebox image and refresh display
     /// 
-    private void changePictureState(PictureBox picture)
+    public void extractGear(PictureBox picture)
     {
-        Thread.Sleep(1000);
-        picture.Image = Image.FromFile("../../img/gear2_moving.jpg");
-        picture.Refresh();
-        Thread.Sleep(3000);
-        picture.Image = Image.FromFile("../../img/gear2_extracted.jpg");
+        this.gearBox = picture;
+        while (this.state < 3)
+        {
+            Thread.Sleep(1000);
+            picture.Image = this.pictures[this.state];
+            backgroundWorker.RunWorkerAsync();
+            this.state++;
+        }
+        this.state = 0;
+    }
+
+    public void retractGear(PictureBox picture)
+    {
+        this.gearBox = picture;
+        while (this.state < 3)
+        {
+            Thread.Sleep(1000);
+            picture.Image = this.pictures[2 - this.state];
+            backgroundWorker.RunWorkerAsync();
+            this.state++;
+        }
+        this.state = 0;
+    }
+
+    private void backgroundWorker_RunWorkerCompleted(
+        object sender,
+        RunWorkerCompletedEventArgs e)
+    {
+        this.gearBox.Refresh();
     }
 }

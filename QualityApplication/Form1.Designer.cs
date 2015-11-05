@@ -40,9 +40,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -59,19 +59,21 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(14, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(636, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(318, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::QualityApplication.Properties.Resources.gear2_extracted;
-            this.pictureBox2.Location = new System.Drawing.Point(21, 30);
+            this.pictureBox2.Image = global::QualityApplication.Properties.Resources.gear2_retracted;
+            this.pictureBox2.Location = new System.Drawing.Point(10, 16);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(186, 175);
+            this.pictureBox2.Size = new System.Drawing.Size(93, 91);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -79,20 +81,22 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::QualityApplication.Properties.Resources.gear2_extracted;
-            this.pictureBox3.Location = new System.Drawing.Point(449, 30);
+            this.pictureBox3.Image = global::QualityApplication.Properties.Resources.gear2_retracted;
+            this.pictureBox3.Location = new System.Drawing.Point(224, 16);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(208, 175);
+            this.pictureBox3.Size = new System.Drawing.Size(104, 91);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::QualityApplication.Properties.Resources.gear2_extracted;
-            this.pictureBox4.Location = new System.Drawing.Point(224, 30);
+            this.pictureBox4.Image = global::QualityApplication.Properties.Resources.gear2_retracted;
+            this.pictureBox4.Location = new System.Drawing.Point(112, 16);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(207, 175);
+            this.pictureBox4.Size = new System.Drawing.Size(104, 91);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -100,30 +104,33 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::QualityApplication.Properties.Resources.door2_opened;
-            this.pictureBox5.Location = new System.Drawing.Point(14, 30);
+            this.pictureBox5.Image = global::QualityApplication.Properties.Resources.door2_closed;
+            this.pictureBox5.Location = new System.Drawing.Point(7, 16);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(186, 160);
+            this.pictureBox5.Size = new System.Drawing.Size(93, 83);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::QualityApplication.Properties.Resources.door2_opened;
-            this.pictureBox6.Location = new System.Drawing.Point(217, 30);
+            this.pictureBox6.Image = global::QualityApplication.Properties.Resources.door2_closed;
+            this.pictureBox6.Location = new System.Drawing.Point(108, 16);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(207, 160);
+            this.pictureBox6.Size = new System.Drawing.Size(104, 83);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::QualityApplication.Properties.Resources.door2_opened;
-            this.pictureBox7.Location = new System.Drawing.Point(442, 30);
+            this.pictureBox7.Image = global::QualityApplication.Properties.Resources.door2_closed;
+            this.pictureBox7.Location = new System.Drawing.Point(221, 16);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(208, 160);
+            this.pictureBox7.Size = new System.Drawing.Size(104, 83);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
@@ -133,9 +140,11 @@
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox4);
             this.groupBox1.Controls.Add(this.pictureBox3);
-            this.groupBox1.Location = new System.Drawing.Point(45, 466);
+            this.groupBox1.Location = new System.Drawing.Point(22, 242);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(663, 223);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(332, 116);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gear State Control";
@@ -146,9 +155,11 @@
             this.groupBox2.Controls.Add(this.pictureBox5);
             this.groupBox2.Controls.Add(this.pictureBox6);
             this.groupBox2.Controls.Add(this.pictureBox7);
-            this.groupBox2.Location = new System.Drawing.Point(45, 720);
+            this.groupBox2.Location = new System.Drawing.Point(22, 374);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(663, 215);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(332, 112);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Doors State Control";
@@ -157,9 +168,11 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.pictureBox1);
-            this.groupBox3.Location = new System.Drawing.Point(45, 258);
+            this.groupBox3.Location = new System.Drawing.Point(22, 134);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(663, 202);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(332, 105);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Gears Usage State";
@@ -169,51 +182,57 @@
             this.groupBox4.Controls.Add(this.progressBar1);
             this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Location = new System.Drawing.Point(45, 12);
+            this.groupBox4.Location = new System.Drawing.Point(22, 6);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(663, 231);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(332, 120);
             this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Gears Handler";
             // 
-            // button1
+            // progressBar1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 43);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "UP";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.progressBar1.Location = new System.Drawing.Point(98, 16);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(228, 101);
+            this.progressBar1.TabIndex = 2;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(21, 182);
+            this.button2.Location = new System.Drawing.Point(10, 95);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 43);
+            this.button2.Size = new System.Drawing.Size(72, 22);
             this.button2.TabIndex = 1;
             this.button2.Text = "DOWN";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // progressBar1
+            // button1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(195, 30);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(455, 195);
-            this.progressBar1.TabIndex = 2;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            this.button1.Location = new System.Drawing.Point(10, 21);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(72, 22);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "UP";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(743, 961);
+            this.ClientSize = new System.Drawing.Size(376, 517);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.MinimumSize = new System.Drawing.Size(769, 1032);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(392, 555);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Landing Application";

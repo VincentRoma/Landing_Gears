@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QualityApplication.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,9 +17,40 @@ namespace QualityApplication
         public Form1()
         {
             InitializeComponent();
+            this.gearsetLeft = new GearSet(pictureBox2, pictureBox5);
+            this.gearsetMiddle = new GearSet(pictureBox4, pictureBox6);
+            this.gearsetRight = new GearSet(pictureBox3, pictureBox7);
+            this.lightControl = new LightControl(pictureBox1);
+            this.controlPanel = new ControlPanel(gearsetLeft, gearsetMiddle, gearsetRight, lightControl);
         }
 
+        GearSet gearsetRight;
+        GearSet gearsetMiddle;
+        GearSet gearsetLeft;
+        LightControl lightControl;
+        ControlPanel controlPanel;
+
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            controlPanel.takeOff();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controlPanel.landing();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }
@@ -34,38 +66,6 @@ namespace QualityApplication
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Thread.Sleep(1000);
-            pictureBox2.Image = Image.FromFile("../../img/gear2_moving.jpg");
-            pictureBox2.Refresh();
-            Thread.Sleep(3000);
-            pictureBox2.Image = Image.FromFile("../../img/gear2_extracted.jpg");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            progressBar1.Value = 33;
-            pictureBox2.Image = Image.FromFile("../../img/gear2_moving.jpg");
-            pictureBox2.Refresh();
-            Thread.Sleep(1000);
-            progressBar1.Value = 66;
-            Thread.Sleep(2000);
-            progressBar1.Value = 100;
-            pictureBox2.Image = Image.FromFile("../../img/gear2_retracted.jpg");
-            pictureBox2.Refresh();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }
