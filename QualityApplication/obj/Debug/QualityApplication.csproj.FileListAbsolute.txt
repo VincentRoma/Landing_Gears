@@ -16,3 +16,4 @@ C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApp
 C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.Form1.resources
 C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.Properties.Resources.resources
 C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\obj\Debug\QualityApplication.csproj.GenerateResource.Cache
+C:\Users\Aixemple\Documents\Visual Studio 2015\Projects\Landing_Gears\QualityApplication\bin\Debug\QualityApplication.XML

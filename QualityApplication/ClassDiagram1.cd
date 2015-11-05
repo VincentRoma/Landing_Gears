@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gear">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAIAAAAAAAAAAAAAQQAEAAAAAAAAEAI=</HashCode>
+      <FileName>Models\Gear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityApplication.Models.ControlPanel">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgAAAAAASAAgBAIAAAAAAAAACAAAAAAAAIIA=</HashCode>
+      <FileName>Models\ControlPanel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gearsetLeft" />
+      <Field Name="gearsetMiddle" />
+      <Field Name="gearsetRight" />
+      <Field Name="lightControl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="QualityApplication.Models.Door">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAAAAIEAAAAAAAAAAAAAAAEAAAAAAAACAI=</HashCode>
+      <FileName>Models\Door.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityApplication.Models.GearSet">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAACAAAAAAAAAQAAAAAABAgAACAA=</HashCode>
+      <FileName>Models\GearSet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="door" />
+      <Field Name="gear" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="QualityApplication.Models.LightControl">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAJAA=</HashCode>
+      <FileName>Models\LightControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
