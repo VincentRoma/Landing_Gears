@@ -69,6 +69,8 @@ namespace QualityApplication.Models
             });
             Task.WaitAll(gearsetLeftTread, gearsetMiddleTread, gearsetRightTread);
 
+            error = this.gearsetLeftState || this.gearsetMiddleState || this.gearsetRightState;
+
             return error;
         }
     }
